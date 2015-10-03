@@ -227,6 +227,10 @@ Sometimes, you might be using `mrt`, or Meteor from a git checkout. By default, 
 ### Access Logs
 
     mup logs -f
+    
+### Access Logs With Deployment Errors
+
+    mup logs -n 300
 
 Mup can tail logs from the server and supports all the options of `tail`.
 
